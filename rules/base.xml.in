@@ -6812,6 +6812,12 @@
           <_description>Win is mapped to PrtSc and the usual Win</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>altwin:ralt_rhyper</name>
+          <_description>Right Alt now functions as Right Hyper</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <!-- Tweaking the position of the "Compose" key: mapping to existing PC keys -->

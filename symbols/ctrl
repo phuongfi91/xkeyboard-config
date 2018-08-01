@@ -1,7 +1,7 @@
 // Eliminate CapsLock, making it another Ctrl.
 partial modifier_keys
 xkb_symbols "nocaps" {
-    replace key <CAPS> { [ Control_L, Control_L ] };
+    replace key <CAPS> { [ Control_R, Control_R ] };
     modifier_map  Control { <CAPS>, <LCTL> };
 };
 
