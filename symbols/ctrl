@@ -2,7 +2,7 @@
 partial modifier_keys
 xkb_symbols "nocaps" {
     replace key <CAPS> { [ Control_R, Control_R ] };
-    modifier_map  Control { <CAPS>, <LCTL> };
+    modifier_map  Control { <CAPS>, <RCTL> };
 };
 
 // Make the left Ctrl key a left Meta.
